@@ -1,38 +1,74 @@
-# Plagiarism Detection using ML-Project
-**Project done in Sem - VI (TCSC)**
+# Plagiarism Detection Tool
 
-This project basically gets the text from web page text-box which is then formated where blank space is replaced by dot and then it is futher sent to query with the help of googlesearch package to check whether we found similarity between our text and the internet. If we found similarity the similar word are shown in another text box and it also does calculate the percentage of the similar word which are shown in another text box and we can also generate report on similar word found on the internet with specificing how many words are copied from which website with there percentage. 
+## Overview
+A comprehensive plagiarism detection tool that offers two main functionalities:
+1. Web-based text similarity checking against internet sources
+2. File-to-file plagiarism detection using KMP (Knuth-Morris-Pratt) algorithm
 
-And there is another part where you can check plagiarism between two files and get there similarity percentage with the help of kmp  (Knuth-Morris-Pratt) algorithm then it calculate the percentage of the similar word between two files which are then shown in another text box.
+## Features
 
-**Virtual Environment GUIDE**
+### Web Content Similarity Detection
+- Input text analysis through a user-friendly web interface
+- Advanced text formatting for optimal search query construction
+- Google search integration using the googlesearch package
+- Highlighted display of similar content found online
+- Percentage calculation of similarity
+- Detailed report generation showing:
+  - Similar words found online
+  - Source websites
+  - Percentage of content copied from each source
 
-Download virtual environment
-```cmd
-pip install virtualenv
-```
+### File Comparison
+- Upload and compare two documents for similarity
+- KMP algorithm implementation for efficient string matching
+- Detailed similarity percentage calculation
+- Highlighted display of matching content
 
-To transfer all packages from the system to virtual environment
-```cmd
-virtualenv --system-site-packages C:\Users\PRATHAMESH\Downloads\Plagiarism-Detection\Final_Ver venv
-```
+## Tech Stack
+- HTML, CSS, Bootstrap for frontend
+- Python backend for text processing
+- googlesearch package for web queries
+- Custom implementation of KMP algorithm
 
-Activate the environment by following command
-```cmd
-.\venv\Scripts\activate or activate.bat
-```
+## Live Demo
+Try the application: [Plagiarism Detection Tool](https://your-live-link-here)
 
-Get all the packages inside requirements.txt
-```cmd
-python -m pip -r freeze > req.txt
-```
+## Installation and Setup
+```bash
+# Clone the repository
+git clone https://github.com/your-username/plagiarism-detection.git
 
-List all the packages used in the current project
-```cmd
-pipreqs C:\Users\PRATHAMESH\Downloads\Plagiarism-Detection\Final_Ver
-```
+# Navigate to project directory
+cd plagiarism-detection
 
-Install all the python packages
-```cmd
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the application
+python app.py
 ```
+
+## Usage
+### Web Content Check
+1. Enter or paste text in the input box
+2. Click "Check Plagiarism"
+3. View highlighted similar content
+4. Check similarity percentage
+5. Generate detailed report
+
+### File Comparison
+1. Upload two files using the file selection interface
+2. Click "Compare Files"
+3. View similarity percentage and matching content
+
+## Future Enhancements
+- PDF and document format support
+- API integration for third-party applications
+- Improved accuracy through machine learning
+- Bulk file processing
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
