@@ -23,7 +23,6 @@ A comprehensive plagiarism detection tool that offers two main functionalities:
 - Upload and compare two documents for similarity
 - KMP algorithm implementation for efficient string matching
 - Detailed similarity percentage calculation
-- Highlighted display of matching content
 
 ## Tech Stack
 - HTML, CSS, Bootstrap for frontend
