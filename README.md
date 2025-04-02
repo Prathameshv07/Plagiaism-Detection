@@ -26,6 +26,7 @@ A comprehensive plagiarism detection tool that offers two main functionalities:
 
 ## Tech Stack
 - HTML, CSS, Bootstrap for frontend
+- Flask for backend
 - Python backend for text processing
 - googlesearch package for web queries
 - Custom implementation of KMP algorithm
