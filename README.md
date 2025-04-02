@@ -8,11 +8,12 @@ A comprehensive plagiarism detection tool that offers two main functionalities:
 ## Features
 
 ### Web Content Similarity Detection
-- Input text analysis through a user-friendly web interface
-- Advanced text formatting for optimal search query construction
-- Google search integration using the googlesearch package
-- Highlighted display of similar content found online
-- Percentage calculation of similarity
+- Tokenizes input text into sentences and removes stopwords using NLTK for optimized search queries
+- Utilizes both Google and Bing search engines to maximize detection coverage
+- Extracts text from web sources using BeautifulSoup and calculates similarity with SequenceMatcher
+- Filters out non-academic sources like social media and e-commerce sites
+- Identifies and highlights matching content from credible web sources
+- Calculates percentage-based similarity scores for individual matches and overall content
 - Detailed report generation showing:
   - Similar words found online
   - Source websites
