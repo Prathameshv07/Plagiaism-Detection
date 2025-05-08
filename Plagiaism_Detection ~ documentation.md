@@ -50,7 +50,7 @@ The primary objectives of this project are to:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/yourusername/Plagiarism-Detection-using-ML.git
+   git clone https://github.com/Prathameshv07/Plagiaism-Detection.git
    cd Plagiarism-Detection-using-ML
    ```
 
