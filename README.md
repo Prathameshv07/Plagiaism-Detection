@@ -37,7 +37,7 @@ Try the application: [Plagiarism Detection Tool](https://plagiaism-detection-usi
 ## Installation and Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/plagiarism-detection.git
+git clone https://github.com/Prathameshv07/Plagiaism-Detection.git
 
 # Navigate to project directory
 cd plagiarism-detection
