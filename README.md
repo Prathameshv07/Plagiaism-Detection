@@ -31,8 +31,8 @@ A comprehensive plagiarism detection tool that offers two main functionalities:
 - googlesearch package for web queries
 - Custom implementation of KMP algorithm
 
-## Live Demo
-Try the application: [Plagiarism Detection Tool](https://plagiaism-detection-using-ml-project.onrender.com/)
+## Video Preview
+Check the application: [Plagiarism Detection Tool]([https://plagiaism-detection-using-ml-project.onrender.com/](https://drive.google.com/file/d/1p9Sgw_CpVliPGb6cURcLuJlmwAmGtcm_/view))
 
 ## Installation and Setup
 ```bash
