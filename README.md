@@ -32,7 +32,7 @@ A comprehensive plagiarism detection tool that offers two main functionalities:
 - Custom implementation of KMP algorithm
 
 ## Video Preview
-Check the application: [Plagiarism Detection Tool]([https://plagiaism-detection-using-ml-project.onrender.com/](https://drive.google.com/file/d/1p9Sgw_CpVliPGb6cURcLuJlmwAmGtcm_/view))
+Check the application: [Plagiarism Detection Tool](https://plagiaism-detection-using-ml-project.onrender.com/](https://drive.google.com/file/d/1p9Sgw_CpVliPGb6cURcLuJlmwAmGtcm_/view)
 
 ## Installation and Setup
 ```bash
